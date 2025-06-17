@@ -79,4 +79,14 @@ Inspeção de variáveis (como Position e Direction) para confirmar se estavam s
 
 
 💬 Considerações Finais
+
 A estrutura foi pensada para facilitar leitura, testes e manutenção. Com o uso de OOP, SOLID e padrões de projeto, é possível expandir a solução facilmente (como adicionar sensores, comandos extras ou interface gráfica).
+
+
+🔁 Integração Contínua (CI)
+
+O projeto possui um pipeline no GitHub Actions que:
+Compila o projeto
+Roda os testes com dotnet test
+O arquivo de configuração está em .github/workflows/ci.yml
+Você pode visualizar os resultados na aba Actions do repositório.
