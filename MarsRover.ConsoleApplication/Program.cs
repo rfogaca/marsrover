@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using MarsRover.Commands;
+﻿using MarsRover.Commands;
 using MarsRover.Domain;
 using MarsRover.Services;
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace MarsRover.Commands
+﻿namespace MarsRover.Commands
 {
     public static class CommandFactory
     {

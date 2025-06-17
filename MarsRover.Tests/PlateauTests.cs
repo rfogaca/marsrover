@@ -30,4 +30,4 @@ namespace MarsRover.Tests
             Assert.IsTrue(plateau.IsOccupied(position));
         }
     }
-}   
+}
