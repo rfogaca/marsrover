@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: 📦 Restaurar dependências
-        run: dotnet restore MarsRover.ConsoleApplication/MarsRover.sln
+        run: dotnet restore MarsRover.ConsoleApplication/MarsRover.ConsoleApplication.sln
 
       - name: 🛠️ Compilar a solução
-        run: dotnet build MarsRover.ConsoleApplication/MarsRover.sln --no-restore --configuration Release
+        run: dotnet build MarsRover.ConsoleApplication/MarsRover.ConsoleApplication --no-restore --configuration Release
 
       - name: ✅ Executar testes
-        run: dotnet test MarsRover.ConsoleApplication/MarsRover.sln --no-build --configuration Release --verbosity normal
+        run: dotnet test MarsRover.ConsoleApplication/MarsRover.ConsoleApplication --no-build --configuration Release --verbosity normal
