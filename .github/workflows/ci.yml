@@ -23,7 +23,7 @@ jobs:
         run: dotnet restore MarsRover.ConsoleApplication/MarsRover.ConsoleApplication.sln
 
       - name: 🛠️ Compilar a solução
-        run: dotnet build MarsRover.ConsoleApplication/MarsRover.ConsoleApplication --no-restore --configuration Release
+        run: dotnet build MarsRover.ConsoleApplication/MarsRover.ConsoleApplication.sln --no-restore --configuration Release
 
       - name: ✅ Executar testes
-        run: dotnet test MarsRover.ConsoleApplication/MarsRover.ConsoleApplication --no-build --configuration Release --verbosity normal
+        run: dotnet test MarsRover.ConsoleApplication/MarsRover.ConsoleApplication.sln --no-build --configuration Release --verbosity normal
